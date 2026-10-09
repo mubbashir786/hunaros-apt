@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: noble-dev
+Components: main
+Date: Fri, 09 Oct 2026 22:47:05 +0000
+Description: HunarOS packages (a product of TajSolution.com)
+Label: HunarOS
+Origin: HunarOS
+Suite: noble-dev
+MD5Sum:
+ cc76ce67c89a2fdb2b628aedcadcab10              211 Release
+ ae73738be5c65c86033ec41b26b2231b            27325 main/binary-amd64/Packages
+ 0dbf389964927c4da21645f216f8c19f             9926 main/binary-amd64/Packages.gz
+ 4f048d43611a78494da73a6937238b5d             9296 main/binary-amd64/Packages.xz
+ 48156cfe871dc2d7800e45589f2a2dc2            15921 main/binary-arm64/Packages
+ ca70f3fcf040fa97678b3a1e7adcef2d             6204 main/binary-arm64/Packages.gz
+ 48d6d492e2e100ba65239a4743695743             5996 main/binary-arm64/Packages.xz
+SHA1:
+ 547e730df35ea19bcb55c363fee46187c056f748              211 Release
+ ddf194654e94f2a7c350492b5b9ea8eedbc29b51            27325 main/binary-amd64/Packages
+ 14589f78055b5982ce28a6c601bc6d27ba18fc37             9926 main/binary-amd64/Packages.gz
+ e62347ca49abbf441d80676f2afeb02a3b38d039             9296 main/binary-amd64/Packages.xz
+ 96548ae758790ac835d03a37e1a27d9571aba7ca            15921 main/binary-arm64/Packages
+ 0b6e54983e6805aebb31001a5ca979647dd503ed             6204 main/binary-arm64/Packages.gz
+ ef823e21448af142357fef9fd0cc180347811bc3             5996 main/binary-arm64/Packages.xz
+SHA256:
+ 007dfd784277df879f45085396e4b6b095d06ad218722a753acde36f2caa4322              211 Release
+ faa331fbfecace9e4c19cbaa667a2b4107f51a6cf1b01c9e2f547ade56886070            27325 main/binary-amd64/Packages
+ a70e171e895e2f3a0719dad9cd5ad548f9cfc60e3a9dc08b180fea2641b9e781             9926 main/binary-amd64/Packages.gz
+ 8b95cd1bab7a2d9a6dfb685fd88da58b56774fca84bac89b7a8f324eafb648c1             9296 main/binary-amd64/Packages.xz
+ 2fa7ad754d4520e17bb605f7438622290649ffffa30ab4639124a237a8d22cf9            15921 main/binary-arm64/Packages
+ 3082dd8f850591d0acc9efa510b6a229ec177ae03c093172e3213e25a0f4699c             6204 main/binary-arm64/Packages.gz
+ 1296d7d3a401361fedf4dd6a89736dd868ad0ed4957e108298564e54388dcfdd             5996 main/binary-arm64/Packages.xz
+SHA512:
+ a3decd0940c88c648b8b33f6c4fe9c452bb96207f8a884a2119fc76ca259205d5da2b72cd6f7cdbad50039d44b092fd55a13f7956cd4f57f2181a77611d1fbbf              211 Release
+ 334eae3b753f3478fba070482b044bef4a4d4c38484fcdfd4c1f4e60810b42408d6c4cfc849dca56e2e6c6ab3f30899dcea86a3918f999fc16a54ecb19bea782            27325 main/binary-amd64/Packages
+ c22ab7f8bf354691d10bc1a619d8614adac004942a2a6217064775b0adc4dea44a735401b059b87ee51fb3b0ce1f90cb2b74891129ac1d7bf975ac6023a47dd0             9926 main/binary-amd64/Packages.gz
+ ab2297c8f4a313af37180e214b9fa2a4cd1331b3a3c98c667e77aaaf37f429ff7dac2ddb3a5c640eb5edfbbfaf08c4b11dd4d22455e1192d128ce444567b7f5c             9296 main/binary-amd64/Packages.xz
+ 02f7fa5ad96455b457637039755f7ec23a92c4ed87d9fca7323d91fac45324271dd9e3b6c6c95a7306b4e0ef58ea9286b0846d0cd4a68e55a08d0b629ed164c6            15921 main/binary-arm64/Packages
+ f5541235dd87eb401084fb97f57b62a381e74d582887dbe2cecba812c006dd31a2f7bbdd6f8eed9ea1c89c9cc4ea4f601ee4a8b0822013c42e7162780bfb9dbc             6204 main/binary-arm64/Packages.gz
+ 81e3eb6b6643e27a7907a0c0056d4e228dda7acf3a367d97349a490320bd73ecb1732b9420a43ca12c8236808e93732f8a1f02f014cb37daf2a95bb8a2150ef6             5996 main/binary-arm64/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQR1FcC/KmjI5kDNLdAWd0Rk2TyO2AUCaslu6QAKCRAWd0Rk2TyO
+2NypAQDGDRS1ukfHkxpJQqTvbsgRP4MXB5UE3Nbe3MJ02ovZUwEAgPrPBfeB5XkN
+2Bzf/TOQTWlrmu0MHufFw4m4xkXlswE=
+=8Nox
+-----END PGP SIGNATURE-----

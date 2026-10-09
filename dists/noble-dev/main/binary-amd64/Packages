@@ -1,0 +1,486 @@
+Package: hunar-cli
+Architecture: amd64
+Version: 0.1.0+b17
+Priority: optional
+Section: devel
+Source: hunar (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 4816
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), hunar-daemon (= 0.1.0+b17)
+Filename: pool/noble-dev/main/h/hunar-cli/hunar-cli_0.1.0+b17_amd64.deb
+Size: 1394156
+MD5sum: 05010fe6911f08f922a39fbd55b92c38
+SHA1: eed55c4b3635eb26798448e48f77f27c93380145
+SHA256: 8175071b38d4099ffc3b63f13c1ae6f999b5ea8f7a609d342253cf482298c314
+SHA512: fb89833e8344d56c85b4c59bd64cafa79998c8c7d20fbda2f3f63c812a2d7af57b3f77d5d64baee5ee3abc9446b69477ed02790a423bb8710042c22a9ed7e1a9
+Homepage: https://github.com/mubbashir786/hunaros
+Description: hunar: command line for HunarOS Karkhana
+ Manage PHP, web servers, sites and services from the terminal, e.g.
+ "hunar status", "hunar start mysql". Uses the same API as the Karkhana app.
+
+Package: hunar-daemon
+Architecture: amd64
+Version: 0.1.0+b17
+Priority: optional
+Section: devel
+Source: hunar (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 4086
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), dbus, polkitd, systemd
+Filename: pool/noble-dev/main/h/hunar-daemon/hunar-daemon_0.1.0+b17_amd64.deb
+Size: 1213088
+MD5sum: 57e9a9cf4a829fc80154bc1620b714a3
+SHA1: 131751669da59a1c923d345a2d4e239503a40268
+SHA256: be339bda4801594ac2a5ab0196e6e64052e81acf0464c20513036e2b929bbc4c
+SHA512: a333494b611b4c490694ee62b0ddab475eec049c1a001aeb6328fafbd7257b7737b86468c0c11048dc44727651ef9b14ece6229e03b721ece1e0fdcbe1b6b379
+Homepage: https://github.com/mubbashir786/hunaros
+Description: HunarOS Karkhana daemon
+ Privileged service behind Karkhana and the hunar command: manages PHP
+ versions, the web server, local sites and development services. Runs on
+ demand over the system D-Bus; every change is authorized with polkit.
+ Members of the "karkhana" group are not asked for a password each time.
+
+Package: hunaros-archive-keyring
+Architecture: all
+Version: 2026.10.08+b17
+Priority: optional
+Section: misc
+Source: hunaros-archive-keyring (2026.10.08)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 15
+Filename: pool/noble-dev/main/h/hunaros-archive-keyring/hunaros-archive-keyring_2026.10.08+b17_all.deb
+Size: 2128
+MD5sum: 80e2abed9daf7f04baa30bc25baac0a3
+SHA1: a0523498b422cc8e057028360e0084a94aea952b
+SHA256: 9bc34640c98f2cff9e44de7daa2516d9ad75061238bc0b5a94245640ab5fd4c5
+SHA512: c21cfdbde5e9e9590e7ad67bb4980886df301abfc1f07ac49dcbfb764f91d02a4ccbe76136ce97bee0dc5445d2c66011b0753d95666880a034b151ca961f8b35
+Homepage: https://github.com/mubbashir786/hunaros
+Description: HunarOS APT repository and signing key
+ Adds the HunarOS package repository (https://mubbashir786.github.io/hunaros-apt)
+ and the key its packages are signed with, so HunarOS Update can install
+ updates of the HunarOS apps. Key fingerprint:
+ 7515 C0BF 2A68 C8E6 40CD  2DD0 1677 4464 D93C 8ED8
+
+Package: hunaros-baithak
+Architecture: amd64
+Version: 0.1.0+b17
+Priority: optional
+Section: net
+Source: hunaros-baithak (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 10469
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.36.9), libglib2.0-0t64 (>= 2.66.0), libgtk-3-0t64 (>= 3.21.5), libjavascriptcoregtk-4.1-0, libsoup-3.0-0 (>= 3.0.3), libwebkit2gtk-4.1-0 (>= 2.41.90), xdg-utils, libsecret-tools, libayatana-appindicator3-1
+Filename: pool/noble-dev/main/h/hunaros-baithak/hunaros-baithak_0.1.0+b17_amd64.deb
+Size: 2872582
+MD5sum: de2700476573aa6a99b52d0108be4856
+SHA1: edb865128936b806915348fb4be1f2243bf8efdb
+SHA256: afc8e52d71a35d9e9da3b51aa8b0d57bc7a9b6039c4836051a2e47c319de1e89
+SHA512: 082e1c0d5938588fc26facdc3ef5d9fa9cb829b459156d588a7ff43b8e9abf9b18a920a4f963d5ceee626f80eda8b6e7b402c3abdde784b84e10395fc11e5df0
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Baithak: team chat for HunarOS
+ Slack-like team chat built into HunarOS: workspaces, public and private
+ channels, direct messages, threads, reactions, @mentions, search, typing and
+ online status, desktop notifications, invite links, and apps: bots, slash
+ commands, incoming webhooks and GitHub notifications. Sign in with e-mail or
+ GitHub; the sign-in is kept in the GNOME keyring. Talks to the Baithak server
+ (baithak.tajsolution.com by default, or your own).
+
+Package: hunaros-bazaar
+Architecture: amd64
+Version: 0.1.0+b17
+Priority: optional
+Section: admin
+Source: hunaros-bazaar (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 9474
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.36.9), libglib2.0-0t64 (>= 2.66.0), libgtk-3-0t64 (>= 3.21.5), libjavascriptcoregtk-4.1-0, libsoup-3.0-0 (>= 3.0.3), libwebkit2gtk-4.1-0 (>= 2.41.90), packagekit, packagekit-tools, flatpak, appstream, libgtk-3-bin
+Recommends: snapd
+Filename: pool/noble-dev/main/h/hunaros-bazaar/hunaros-bazaar_0.1.0+b17_amd64.deb
+Size: 2584816
+MD5sum: 2ee606a9cdd9b9b9d18e046a215328ba
+SHA1: ac010f039e9af883b3156cb113d1c2786f5ba53c
+SHA256: 52f6d8de2fcc1e2854479f0af431e912a19f72215f75c28703ba378006e59fe0
+SHA512: bd2743d315f3014c4977358760d6131b1ffb5ec67159d314d1d27d2d8ca380113b6946d05c4bbc637b0f367ab50574facabd951794c706aa5a18fbac8a5b8d3d
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Bazaar: the HunarOS app store
+ Find and install apps from a curated HunarOS catalog, Ubuntu/HunarOS APT
+ repositories (through PackageKit), Flathub and the Snap Store. Shows
+ installed apps and available updates, and installs whole bundles such as
+ the Laravel Starter Pack.
+
+Package: hunaros-branding
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: misc
+Source: hunaros-branding (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 2288
+Provides: diverts-etc++issue, diverts-etc++issue.net, diverts-etc++lsb-release, diverts-etc++update-motd.d++10-help-text, diverts-etc++update-motd.d++50-motd-news, diverts-usr++lib++os-release
+Depends: dconf-gsettings-backend | gsettings-backend, base-files, plymouth, plymouth-label, plymouth-theme-ubuntu-text, fonts-inter
+Conflicts: diverts-etc++issue, diverts-etc++issue.net, diverts-etc++lsb-release, diverts-etc++update-motd.d++10-help-text, diverts-etc++update-motd.d++50-motd-news, diverts-usr++lib++os-release
+Filename: pool/noble-dev/main/h/hunaros-branding/hunaros-branding_0.1.0+b17_all.deb
+Size: 2107916
+MD5sum: 1c2c1f23392dc79aee16eddf3ad9d74a
+SHA1: b75102b1ab0d4850fc49556279dc64f03124f52e
+SHA256: 63e92ecdfe6a87a766bc6cb07e808a55fa3b3dc4fff6d53e99fc41671c8f1f45
+SHA512: 11f2600017eac172a200fe97a1303ba8d82eadc43146557ecfb21d7b70e7b15a0ffa984925128ff5cb54f5b8b0bee125e4c45eed9ebdfe75dcffac8f28037e93
+Homepage: https://github.com/mubbashir786/hunaros
+Description: HunarOS branding and identity
+ Logo and icons, light/dark wallpapers, animated Plymouth boot splash,
+ GRUB theme, login screen logo and the system identification files
+ (os-release, lsb-release, issue, login message) for HunarOS.
+
+Package: hunaros-chiragh
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: web
+Source: hunaros-chiragh (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 3774
+Provides: gnome-www-browser, www-browser
+Depends: python3, python3-gi, python3-cryptography, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-webkit-6.0, libwebkitgtk-6.0-4, librsvg2-common, xdg-utils
+Recommends: apparmor, gstreamer1.0-plugins-good, gstreamer1.0-libav
+Filename: pool/noble-dev/main/h/hunaros-chiragh/hunaros-chiragh_0.1.0+b17_all.deb
+Size: 1084074
+MD5sum: d9e886c88b1bbcd2a8b781aa9bd11d3d
+SHA1: cd8aef1c01a828bc1845f11acf31c95ce857b4af
+SHA256: 6f67ce588b2b3f8abba8e2cb818744c74166a5c81b0004ff72cf074a5f880531
+SHA512: 84d23004b644815a65bb0e777324d5050004eda5831ed9a73aef8de40bc84eefbafb711a6e36bc548431ee4e36ac0d61542659808466404ef9b1df45f45cec0a
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Chiragh Browser: the HunarOS web browser
+ A fast, private web browser built on WebKitGTK (the engine of GNOME Web and
+ Safari). Ads and trackers are blocked inside the engine using EasyList and
+ EasyPrivacy, HTTPS-only mode upgrades every site to a secure connection,
+ third-party cookies are off and WebKit's Intelligent Tracking Prevention is
+ on. Tabs, private windows, bookmarks, history, downloads and developer tools.
+
+Package: hunaros-dabistan
+Architecture: amd64
+Version: 0.1.0+b17
+Priority: optional
+Section: database
+Source: hunaros-dabistan (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 25084
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.36.9), libglib2.0-0t64 (>= 2.66.0), libgtk-3-0t64 (>= 3.21.5), libjavascriptcoregtk-4.1-0, libsoup-3.0-0 (>= 3.0.3), libssl3t64 (>= 3.0.0), libwebkit2gtk-4.1-0 (>= 2.41.90), libsecret-tools, openssh-client
+Recommends: mysql-client | default-mysql-client, postgresql-client, sqlite3
+Filename: pool/noble-dev/main/h/hunaros-dabistan/hunaros-dabistan_0.1.0+b17_amd64.deb
+Size: 7529054
+MD5sum: cad883392638a7413fe18dc6bddd81e3
+SHA1: b4953279dc2c28b60ef4a2f60c4a63db8de77052
+SHA256: 1f8d3b8b33a34e2990b8c792fcfa430911835764d512ef07f26b2251efdfe7af
+SHA512: 3b3a198634e90a2b15db5e4112f5235e9a040109f4e48a1c3a7395925422221ff0bf641b272aae58e209cbbd78a5d2341c0e1130a5f3c53d55191ae1ee60ef34
+Homepage: https://github.com/mubbashir786/hunaros
+Description: DaBistan: the HunarOS database client
+ Browse and edit MySQL/MariaDB, PostgreSQL, SQLite, Redis and MongoDB
+ databases: table data grid with inline editing, SQL editor with
+ completion and history, Redis key browser and console, MongoDB documents,
+ CSV/JSON/SQL export, backup and restore, SSH tunnels. Passwords are kept
+ in the GNOME keyring.
+
+Package: hunaros-desktop
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: misc
+Source: hunaros-desktop (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 920
+Depends: dconf-gsettings-backend | gsettings-backend, hunaros-branding, hunaros-theme, gnome-shell, gnome-shell-extensions, gnome-shell-extension-ubuntu-dock, gnome-shell-extension-appindicator, fonts-inter, fonts-jetbrains-mono, flatpak
+Recommends: gnome-tweaks, gnome-shell-extension-manager, gnome-software-plugin-flatpak
+Filename: pool/noble-dev/main/h/hunaros-desktop/hunaros-desktop_0.1.0+b17_all.deb
+Size: 136866
+MD5sum: 2a8fa8d3dff9c1dafaaa0d1e0a8f6a62
+SHA1: d3ded85edc7e0f00a1b328903269052de817b739
+SHA256: 12620c4a3a19cbd3ce636a29378205b2560910ede5ad49894e2bb3180041dd1d
+SHA512: 5a6b7a7f8a06aa5d8129eba5821da51a48cdda9b102d5b5ddb95f0909f988a11705fbcd7431a6e75b066dc06e09fe2313a3f944d06e3f73427976310366bced8
+Homepage: https://github.com/mubbashir786/hunaros
+Description: HunarOS desktop defaults
+ macOS-inspired GNOME defaults for HunarOS: dock at the bottom (centred,
+ auto-hide), window buttons on the left, WhiteSur theme with the HunarOS
+ accent, Inter and JetBrains Mono fonts, background blur (Blur my Shell),
+ Flathub enabled. Applied to all users through GSettings overrides.
+
+Package: hunaros-devstack
+Architecture: amd64
+Version: 0.1.0+b17
+Priority: optional
+Section: devel
+Source: hunaros-devstack (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 30746
+Depends: php8.2-cli, php8.2-fpm, php8.2-mysql, php8.2-pgsql, php8.2-sqlite3, php8.2-redis, php8.2-curl, php8.2-mbstring, php8.2-xml, php8.2-zip, php8.2-gd, php8.2-intl, php8.2-bcmath, php8.2-imagick, php8.2-xdebug, php8.2-soap, php8.2-readline, php8.2-opcache, php8.3-cli, php8.3-fpm, php8.3-mysql, php8.3-pgsql, php8.3-sqlite3, php8.3-redis, php8.3-curl, php8.3-mbstring, php8.3-xml, php8.3-zip, php8.3-gd, php8.3-intl, php8.3-bcmath, php8.3-imagick, php8.3-xdebug, php8.3-soap, php8.3-readline, php8.3-opcache, php8.4-cli, php8.4-fpm, php8.4-mysql, php8.4-pgsql, php8.4-sqlite3, php8.4-redis, php8.4-curl, php8.4-mbstring, php8.4-xml, php8.4-zip, php8.4-gd, php8.4-intl, php8.4-bcmath, php8.4-imagick, php8.4-xdebug, php8.4-soap, php8.4-readline, php8.4-opcache, php8.5-cli, php8.5-fpm, php8.5-mysql, php8.5-pgsql, php8.5-sqlite3, php8.5-redis, php8.5-curl, php8.5-mbstring, php8.5-xml, php8.5-zip, php8.5-gd, php8.5-intl, php8.5-bcmath, php8.5-imagick, php8.5-xdebug, php8.5-soap, php8.5-readline, nginx, apache2, mysql-server, postgresql, redis-server, dnsmasq-base, mkcert, libnss3-tools, acl
+Filename: pool/noble-dev/main/h/hunaros-devstack/hunaros-devstack_0.1.0+b17_amd64.deb
+Size: 9478196
+MD5sum: bf6f66caf14f8eaf3dd56db61134df7a
+SHA1: 704166d83a9fe0e9cde01db8b0969cf42f36a978
+SHA256: 33dfefdc82923cffd4b10de1ce853558eba97ef0fa777ed582a2e7514e90542b
+SHA512: 16ee2ae232e4d21997ac21e3f6e4558ed9bff2020098365a1ebd3056d3b1019258c7b2ef875510c6523af9a777c5d9fb9fb708c28433be74f97158bf1b1c79fb
+Homepage: https://github.com/mubbashir786/hunaros
+Description: HunarOS developer stack
+ PHP 8.2, 8.3, 8.4 and 8.5 with FPM and common extensions (8.4 is the default),
+ Composer, Nginx (active) and Apache (installed, stopped), MySQL, PostgreSQL,
+ Redis and Mailpit (installed, disabled until needed), local *.test domains
+ via dnsmasq and mkcert for trusted local HTTPS. Per-user tools (pyenv, nvm,
+ Laravel installer) are set up by the Khush Aamdeed welcome wizard.
+
+Package: hunaros-firstboot
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: misc
+Source: hunaros-hardware (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 51
+Depends: systemd, ca-certificates
+Filename: pool/noble-dev/main/h/hunaros-firstboot/hunaros-firstboot_0.1.0+b17_all.deb
+Size: 21306
+MD5sum: ec0853613bfae42fb97bbb209ad50a57
+SHA1: 8a9c4adc99cf1098b9f4f10e8b6a17093af86eba
+SHA256: fe8da549ce34ff9b02f6659171cdc0be8c163fc239ea1b413c09716027f038b1
+SHA512: d54a12087e41d1efd655a508ddb47d5897b7dc2923dba12f91a41d5a32cfcf2f1e91bf67d492eb62f7f829cae7255b43a1b60af8e81102e87c000ed858678006
+Homepage: https://github.com/mubbashir786/hunaros
+Description: HunarOS first-boot tasks
+ Runs one-time tasks on the first boot of an installed HunarOS system and
+ retries them hourly until they succeed (for example when the computer is
+ offline). Installs Google Chrome and Claude Desktop from their vendors' official
+ repositories (they are never shipped in the ISO).
+
+Package: hunaros-git-shajra
+Architecture: amd64
+Version: 0.1.0+b17
+Priority: optional
+Section: vcs
+Source: hunaros-git-shajra (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 11165
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.36.9), libglib2.0-0t64 (>= 2.66.0), libgtk-3-0t64 (>= 3.21.5), libjavascriptcoregtk-4.1-0, libsoup-3.0-0 (>= 3.0.3), libwebkit2gtk-4.1-0 (>= 2.41.90), git, gh, xdg-utils, libglib2.0-bin
+Recommends: git-lfs
+Filename: pool/noble-dev/main/h/hunaros-git-shajra/hunaros-git-shajra_0.1.0+b17_amd64.deb
+Size: 2947454
+MD5sum: be888f7cdc2faf419525a616aa075d64
+SHA1: ed16c0caf59cc0e0a2f8e9a5added3d8bc13842e
+SHA256: 1fe8086728d943cac3ac8dee9ae514caf1ebf6052a51f099a2998987afb72f2f
+SHA512: 2744469645be190de63f192c974a6fd509f4850de868aed857ccf427f43a5e5a0f62b06676999618c8797b0f1e008b4ad4720bfee5c56fb25dfa8dc4bf4756bb
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Git Shajra: Git client for HunarOS
+ A friendly Git client like GitHub Desktop: see changes, stage whole files or
+ single lines, commit (amend, co-authors), undo the last commit, branches
+ (create, switch, rename, delete, merge, rebase), conflict helper, stash,
+ history with diffs, revert, fetch/pull/push with progress, clone and publish.
+ GitHub through the GitHub CLI: sign in with several accounts at once and pick
+ the account per repository, pull requests (list, create, check out).
+
+Package: hunaros-hakeem
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: admin
+Source: hunaros-hakeem (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 105
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, pkexec, polkitd, procps, libsecret-tools
+Recommends: ubuntu-drivers-common, pciutils, usbutils, network-manager
+Filename: pool/noble-dev/main/h/hunaros-hakeem/hunaros-hakeem_0.1.0+b17_all.deb
+Size: 25158
+MD5sum: 07db3cb04bf7173ef2733919d5815729
+SHA1: 4ac6f44102946266d2ffa32a8883a6f5c7662e3b
+SHA256: d387626353982ec24fc9761f32ccad6e63fcdc4ad91c16f95df38515c0b6830d
+SHA512: fa48f4340afb8216703dd86673df5eba6d2fb662cc21cb14c24bcda618743889c096b279c5d1fa03207d88777232d03fef099c587add63c0725cf6bb887cd9b3
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Hakeem: find and fix common problems on HunarOS
+ Hakeem (Urdu: healer) checks the internet connection and DNS, interrupted or
+ broken package installs, disk space, the clock, failed services, first-boot
+ installs, updates, Snap, drivers, sound, Docker access and the local
+ development stack, and repairs them with one click. Safe repairs (DNS,
+ interrupted installs, a full disk, the clock, Snap) also run by themselves
+ once a day. Only a fixed list of repairs can ever run.
+ .
+ "Ask Hakeem" sends the question (and, if allowed, the redacted check results)
+ to an AI service: the HunarOS server, Claude, OpenAI, Google Gemini, Groq,
+ OpenRouter, Mistral, DeepSeek or a local Ollama, tried in the user's order
+ until one answers. It can also save a problem report for the HunarOS team.
+
+Package: hunaros-hardware
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: misc
+Source: hunaros-hardware (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 22
+Depends: linux-firmware, ubuntu-drivers-common, fwupd, power-profiles-daemon, iio-sensor-proxy, bolt, switcheroo-control, fprintd, libpam-fprintd, zenity, pkexec
+Recommends: firmware-sof-signed, intel-microcode, amd64-microcode, thermald
+Filename: pool/noble-dev/main/h/hunaros-hardware/hunaros-hardware_0.1.0+b17_all.deb
+Size: 3930
+MD5sum: ae00e4309826e482ffa0142a15e87a88
+SHA1: a72089b8a02ed1184f9c81847d6fe431067268ac
+SHA256: 98258cbdaf47bf9026b30c6b390b235ddc21537a5eb33e25fb2abe6733954256
+SHA512: 4226c77d1cc13d27b67fd0bcb251d36360de5c563eb01cb1daa968c1d47e7e26757ba9402c3fd2d2fa7d4704bcd709567f0e774681b638cd0e0dd8bdca17cd0c
+Homepage: https://github.com/mubbashir786/hunaros
+Description: HunarOS hardware support
+ Firmware, CPU microcode, power profiles, thermal management, fingerprint
+ readers, Thunderbolt, hybrid graphics switching and firmware updates for
+ HunarOS. On installed systems it offers proprietary drivers (for example
+ NVIDIA) after the first login and installs them only with the user's consent.
+
+Package: hunaros-installer
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: admin
+Source: hunaros-installer (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 94
+Depends: calamares (>= 3.3.5), calamares-settings-ubuntu-common (>= 1:24.04), qml-module-qtquick2, qml-module-qtquick-window2, x11-xserver-utils, sudo, python3, os-prober, ntfs-3g, dosfstools, cryptsetup, btrfs-progs, xfsprogs
+Filename: pool/noble-dev/main/h/hunaros-installer/hunaros-installer_0.1.0+b17_all.deb
+Size: 45788
+MD5sum: fe0ed5de4e9724f99aa2b6a48422ecd4
+SHA1: 6c4051dcbe80b0644462f9c3dadead30c262d58a
+SHA256: 2bf175f786b0286840bce27d6b065b54a9dfac8564efe5747185603afe9b18bc
+SHA512: 64e5a721f08a70eec9995ea0248834d11bae2fa284118194212c1605b4853f22b4a141bf9b1b092bac0105393d7200d142b0911aa97685bf38c7749f156f6e7f
+Homepage: https://github.com/mubbashir786/hunaros
+Description: HunarOS installer (live session only)
+ Windows-style setup wizard for HunarOS, based on Calamares: language and time
+ zone, keyboard, media codecs, disk partitioning (erase disk, install next to
+ Windows, replace a partition or manual, optional encryption), user account,
+ then installation with a HunarOS slideshow. Removed from the installed system.
+
+Package: hunaros-karkhana
+Architecture: amd64
+Version: 0.1.0+b17
+Priority: optional
+Section: devel
+Source: hunaros-karkhana (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 12091
+Depends: libc6 (>= 2.39), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.36.9), libglib2.0-0t64 (>= 2.66.0), libgtk-3-0t64 (>= 3.21.5), libjavascriptcoregtk-4.1-0, libsoup-3.0-0 (>= 3.0.3), libwebkit2gtk-4.1-0 (>= 2.41.90), hunar-cli, hunar-daemon, xdg-utils, libayatana-appindicator3-1
+Recommends: hunaros-devstack, code
+Filename: pool/noble-dev/main/h/hunaros-karkhana/hunaros-karkhana_0.1.0+b17_amd64.deb
+Size: 3178588
+MD5sum: 62e8e94f390861cfcc3bcceadef03d3c
+SHA1: 86f2f98f756a73525502ebf0b57b4a14d49414f8
+SHA256: d880e40ba3ca35a0bc2076745afe9c72e49452887d93b9505ab20c5100a3ace5
+SHA512: dd56312418cb2c81d71fba8cedbb5904445a9776cadd9ba70bcf10c3e341bad3e0133c7d4db817ef9ecc567ae2bd3b19c947a06302f56d9d791108b56e29c92a
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Karkhana: HunarOS developer control center
+ Graphical control center for local development on HunarOS: switch between
+ Nginx and Apache, manage PHP versions, extensions and php.ini, serve projects
+ as *.test sites with one-click HTTPS, park folders, create Laravel projects,
+ start and stop MySQL, PostgreSQL, Redis and Mailpit, and create databases.
+ Uses the same hunar-daemon API as the `hunar` command.
+
+Package: hunaros-keymap
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: misc
+Source: hunaros-keymap (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 22
+Depends: dconf-gsettings-backend | gsettings-backend, dconf-cli, gnome-settings-daemon, gnome-shell, mutter-common
+Recommends: gnome-system-monitor
+Filename: pool/noble-dev/main/h/hunaros-keymap/hunaros-keymap_0.1.0+b17_all.deb
+Size: 2964
+MD5sum: 7df9e7e65a8a7372966af1027de34481
+SHA1: c964ffd8770e45459d058ca344a99f9f995afa8a
+SHA256: d2b19392038c73539f5472db404ec887b9ede7fa2dafe9841175239cd0ca408d
+SHA512: 2caac95c1fcc1eb15be8f1d4e170fecb3925fefa27b86bbc3340f34c936ae5b432114a9a87384f343165149ad466e20050e3ba63788e8e5943986f3678f30597
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Windows-style keyboard shortcuts for HunarOS
+ Windows/PC keyboard shortcuts on the GNOME desktop: the Windows key opens
+ Activities, Alt+Tab switches windows, Win+D shows the desktop, Win+E opens
+ Files, Win+I Settings, Win+L locks, Win+Shift+S takes a screenshot, Win+Tab
+ shows all windows and Ctrl+Shift+Esc opens the task manager. Copy/paste keys
+ stay exactly as on Windows.
+
+Package: hunaros-rehnuma
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: doc
+Source: hunaros-rehnuma (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 65
+Depends: xdg-utils
+Filename: pool/noble-dev/main/h/hunaros-rehnuma/hunaros-rehnuma_0.1.0+b17_all.deb
+Size: 16420
+MD5sum: 1ceb4ff2e36e64b4f507ee480f33c5db
+SHA1: 4947cab666d20321ee547907d23929c105b7e020
+SHA256: 870826d578b722664ec3b32d55c2fde1625ea1bde3d71b5cab4698130d03ce39
+SHA512: bc0c795d8ec7c449dfc3913980d14916afc0cf7cf1189279f7808234fd7b48f5c741be28e1f4865e07e43dfe5b00543b360c4aedbf9a537ca94300a1d2ea1b22
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Rehnuma: the HunarOS user guide
+ The HunarOS user guide, readable offline in any browser: installing,
+ the desktop and its Windows-style shortcuts, local development with
+ Karkhana and the hunar command, the HunarOS apps, updates and answers to
+ common problems. Opens from "Rehnuma" in the app grid.
+
+Package: hunaros-theme
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: misc
+Source: hunaros-desktop (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 87579
+Filename: pool/noble-dev/main/h/hunaros-theme/hunaros-theme_0.1.0+b17_all.deb
+Size: 6691424
+MD5sum: d6799ed0567e0d1e4934051ab5b99547
+SHA1: 77fe968d373a663139ce25d589ff766d33517646
+SHA256: 6205e93e925e58ca1005e02c944608985298f4168c0a7e64ac0faf2023de2eac
+SHA512: 893cb04c39d38e8cdc5a6d41898433e5d6a6788527faffa998b54f4ecb5802676a5a1a7969ad1c0870ab83efb83d1b0203e3009c4343db1a441fe82f0f69e638
+Homepage: https://github.com/mubbashir786/hunaros
+Description: HunarOS desktop theme (WhiteSur with the HunarOS accent)
+ GTK 3/4 and GNOME Shell theme, icon theme and cursors for HunarOS, built from
+ the WhiteSur projects by Vince Liu (GTK theme: MIT; icons and cursors: GPL-3.0)
+ with the HunarOS teal accent colour. See /usr/share/doc/hunaros-theme/copyright.
+
+Package: hunaros-update
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: admin
+Source: hunaros-update (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 84
+Depends: dconf-gsettings-backend | gsettings-backend, unattended-upgrades, python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, pkexec, polkitd, procps
+Recommends: flatpak, snapd
+Filename: pool/noble-dev/main/h/hunaros-update/hunaros-update_0.1.0+b17_all.deb
+Size: 15162
+MD5sum: a19d21eee913b47b767ce1aefd962829
+SHA1: c7e3f9d19dd50bd26a1c77563a902dd1a91dd266
+SHA256: a6c4ed52cc2b2f62799d2f1d274089e2cc2124387cc68b6d2794815e194e0b09
+SHA512: 8ccc980401d26224a557777bafc8ac91faae638d3a5477c454f770aacffef85f1c1b39527c50f7dc1fa67d5d89adecf489f6ed187e58127473de2601155b6f7c
+Homepage: https://github.com/mubbashir786/hunaros
+Description: HunarOS Update: Windows-Update-style automatic updates
+ Installs HunarOS, Ubuntu (security and updates) and vendor repository
+ updates (Firefox, PHP, Docker, VS Code, ...) every day, plus Flatpak and Snap
+ apps. A pending restart happens only outside the user's active hours and only
+ when nobody is using the computer; otherwise a notification offers
+ "Restart now". Updates can be paused for up to five weeks. The HunarOS Update
+ app shows status, available updates and history.
+
+Package: hunaros-welcome
+Architecture: all
+Version: 0.1.0+b17
+Priority: optional
+Section: misc
+Source: hunaros-welcome (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 49
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, git, openssh-client, curl, pkexec, hunaros-devstack
+Filename: pool/noble-dev/main/h/hunaros-welcome/hunaros-welcome_0.1.0+b17_all.deb
+Size: 10086
+MD5sum: 64f25f3ca66630245ddc3ab1a3b531f6
+SHA1: 3e29ed5c644e2a1ee387271fac49f43011348e8c
+SHA256: ef4a4982a50dda2736486ea3d1a57ce4ed834408324c2b9c473209bfa572e267
+SHA512: 49fdf2eec87fdeb302af03dc3e8aceadb3c5339f4aeac7e80ac6f58b5ddc59cb7a4a83767b2ed3e83092fbe0666f1020218f6ce9223b9fade24000405c7adc1b
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Khush Aamdeed: HunarOS welcome and developer setup
+ First-login wizard that sets up the chosen stack for the user (PHP/Laravel,
+ Python via pyenv, Node.js via nvm, or everything), the Git identity, an SSH
+ key and Docker access. Can be started again from the app grid.
+
