@@ -90,6 +90,35 @@ Description: Barq Downloader: fast downloads for HunarOS
  policies: their downloads go to Barq, and videos show a "Download" button.
  Chiragh Browser works with Barq directly.
 
+Package: hunaros-barq
+Architecture: all
+Version: 0.1.0+b25
+Priority: optional
+Section: net
+Source: hunaros-barq (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 148
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1 (>= 1.5), aria2, hunaros-naghma
+Recommends: ffmpeg, xdg-user-dirs
+Filename: pool/noble-dev/main/h/hunaros-barq/hunaros-barq_0.1.0+b25_all.deb
+Size: 38412
+MD5sum: d13300fc3b389e28ab8f307719b60277
+SHA1: c1478a3fda1774d8f5f1c8a9243d3082b31d45cc
+SHA256: 97fcbf0cf8033bda67707e3ea589376b564c46dbe26af8542d05f7e9fc1accab
+SHA512: da3ac86c885dcc6ae51d75f5ebd8852b28dbba5d4b9aaa1e6aae42e1ebe100febf6f4316a77a222cc0c382e7bdbeda4447797b9f6c4fc1c31b509a26da53c5bc
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Barq Downloader: fast downloads for HunarOS
+ Barq (Urdu: lightning) downloads files over several connections at once with
+ aria2, pauses and resumes (also after a restart), keeps a queue sorted into
+ categories (video, music, documents, programs, archives), limits the speed,
+ and has a scheduler (e.g. at night, then sleep or shut down). Videos and music
+ from YouTube and many other sites are downloaded with yt-dlp in the quality
+ you choose.
+ .
+ Chrome, Chromium, Brave, Edge and Firefox get the Barq extension through
+ policies: their downloads go to Barq, and videos show a "Download" button.
+ Chiragh Browser works with Barq directly.
+
 Package: hunaros-branding
 Architecture: all
 Version: 0.1.0+b17
@@ -622,6 +651,34 @@ Description: Jalwa: the HunarOS media player
  steps, screenshots, a 10-band equalizer, picture adjustments, continues each
  file where it stopped, hardware decoding, a mini player and GNOME media keys.
 
+Package: hunaros-jalwa
+Architecture: all
+Version: 0.1.0+b25
+Priority: optional
+Section: video
+Source: hunaros-jalwa (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 162
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1 (>= 1.5), libmpv2, libegl1, libx11-6
+Recommends: yt-dlp
+Filename: pool/noble-dev/main/h/hunaros-jalwa/hunaros-jalwa_0.1.0+b25_all.deb
+Size: 37716
+MD5sum: fe7275c559b0c811825d88d8331795bb
+SHA1: 4442a96adc90d7c53515da2f042873f5c3a31366
+SHA256: 81bb50159634115e76922c170ff7180c0b9a38765ed0a7d448231ef194440a67
+SHA512: 83b9095a328abaa94ba1373c8a17f959d4b3fded91d806253588499452c9bd8f764bb8c2c1a3c6507f0cdd14a0b712efa33aaccdad872d9c5854c06d618692aa
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Jalwa: the HunarOS media player
+ Jalwa (Urdu: a splendid sight) plays every common video and audio format
+ through mpv and FFmpeg: MP4, MKV, WebM, AVI, MOV, MP3, FLAC, Opus and many
+ more, plus network streams (HLS, DASH, RTSP, video sites through yt-dlp),
+ DVDs, Blu-rays and audio CDs.
+ .
+ Playlists (M3U, PLS), subtitles (found next to the video, added by drag and
+ drop, delay and size), audio and subtitle tracks, speed, A-B loop, frame
+ steps, screenshots, a 10-band equalizer, picture adjustments, continues each
+ file where it stopped, hardware decoding, a mini player and GNOME media keys.
+
 Package: hunaros-keymap
 Architecture: all
 Version: 0.1.0+b17
@@ -710,6 +767,35 @@ MD5sum: d25779e1f850a0787ec2a77630435976
 SHA1: 7988900fbf399a32be93e462a63cc9d98cda62e4
 SHA256: f7986c9f0251be3c1360e6f3158c2c8f64500c37eb0b9eff68894870f7cd5a4f
 SHA512: 446c44b291ac9e90271a15b0523c080701a56fc26269391e6aaa1a81b2b6d5086aae2609a42b8710fe6446b27648be4f91f88ffb234b7612520bbf37bfb1415b
+Homepage: https://github.com/mubbashir786/hunaros
+Description: Naghma: the HunarOS music app
+ Naghma (Urdu: melody) plays music from YouTube Music without ads: home page
+ suggestions, search for songs, albums, artists and playlists, artist and album
+ pages, a play queue with shuffle and repeat, radio (similar songs keep
+ playing), lyrics, liked songs, own playlists, history, and offline downloads
+ with title, artist and cover in the file. Media keys and GNOME's media
+ controls work.
+ .
+ There is no sign-in; everything Naghma remembers stays on the computer.
+ Streams and downloads use yt-dlp, which Naghma keeps up to date from the
+ official, signed yt-dlp releases. Not affiliated with YouTube or Google.
+
+Package: hunaros-naghma
+Architecture: all
+Version: 0.1.0+b25
+Priority: optional
+Section: sound
+Source: hunaros-naghma (0.1.0)
+Maintainer: HunarOS Developers <76816950+mubbashir786@users.noreply.github.com>
+Installed-Size: 164
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1 (>= 1.5), hunaros-jalwa, libmpv2, gpgv
+Recommends: ffmpeg, xdg-user-dirs
+Filename: pool/noble-dev/main/h/hunaros-naghma/hunaros-naghma_0.1.0+b25_all.deb
+Size: 38162
+MD5sum: cb8ed7ea9c35ce9c4bd394552a6a84e8
+SHA1: 6fe3b5298ec1c31ac2bd8a9028052a0ff0b57cb4
+SHA256: a42c819f2f94305bbd38e94492c6b6e95e936a4582a91bd637967fd8c8446078
+SHA512: b7eef1c104d117755d83990b37521f8021d73ea7433617efc19ae5921450eceea42cf240a2e6e10ffcc18dee099cd1e2a866cdfcf5a642f3753fdd468cce685d
 Homepage: https://github.com/mubbashir786/hunaros
 Description: Naghma: the HunarOS music app
  Naghma (Urdu: melody) plays music from YouTube Music without ads: home page
